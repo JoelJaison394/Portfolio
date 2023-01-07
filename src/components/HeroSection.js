@@ -1,16 +1,22 @@
 import React from 'react'
 import LeftHeroSection from './LeftHeroSection'
 import RightHeroSection from './RightHeroSection'
+import { Link } from "react-router-dom";
 
 function HeroSection() {
+  const name = "< Joel Jaison />"
   return (
     <div className='HeroSection'>
         <header>
-        <h1>Joel Jaison</h1>
+        <h1>{name}</h1>
         <div className="menu-list">
           <ul>
-            <li>Home</li>
+            <Link to="/" style={{ textDecoration: 'none' , color:' #13274F' }}>
+              <li >Home</li>
+            </Link>
+            <Link to="/education" style={{ textDecoration: 'none' , color:' #13274F' }}>
             <li>Education</li>
+            </Link>
             <li>Projects</li>
             <li>Contact</li>
           </ul>

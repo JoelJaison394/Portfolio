@@ -94,8 +94,8 @@ function SkillSection() {
                 <h2 className='section-sub-title'>Ui / Ux Desgining</h2>
                 <div className="skill-icons">
                     {/* <label className='skills' ><C/></label> */}
-                    <label className='skills' ><Figma/></label>
-                    <label className='skills' ><Xd/></label>
+                    <label className='skills ' ><Figma/></label>
+                    <label className='skills ' ><Xd/></label>
                     <label className='skills' ><Illustrator/></label>
 
                 </div>

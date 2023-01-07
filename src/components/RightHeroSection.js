@@ -3,8 +3,8 @@ import { ReactComponent as HeroSvg } from '../assets/hero-section-svg/Heroimg.sv
 
 function RightHeroSection() {
   return (
-    <div>
-        <HeroSvg/>
+    <div className='rightHeroSection'>
+        <HeroSvg />
     </div>
   )
 }

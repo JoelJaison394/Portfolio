@@ -14,6 +14,7 @@ function Cursor() {
         <BrowserRouter>
         <Routes>
             <Route exact path="/" element = {<Home/>}  />
+            <Route exact path="/portfolio" element = {<Home/>}  />
            <Route exact path="/education" element = {<Education/>}  />
             {/* <Route exact path="/home" element = {<Home/>}  />
             <Route exact path="/verify" element = {<Verification/>}  /> */} 

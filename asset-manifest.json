@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6840bfef.css",
-    "main.js": "/static/js/main.674ced03.js",
+    "main.css": "/static/css/main.27222469.css",
+    "main.js": "/static/js/main.12d50ab8.js",
     "static/js/787.1c8d7232.chunk.js": "/static/js/787.1c8d7232.chunk.js",
+    "static/media/project.gif": "/static/media/project.8a70d0ccfca08b67858c.gif",
     "static/media/Graduation-hat.png": "/static/media/Graduation-hat.c2a8a3c51bbe119df570.png",
     "static/media/DonBosco-logo.png": "/static/media/DonBosco-logo.94e4fe7746d2135d4a76.png",
     "static/media/Aboutmeimg.svg": "/static/media/Aboutmeimg.6d80e34d4f63f9f75dfd633ee20961c6.svg",
@@ -39,12 +40,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.00f2c112424d46b943bc6e224e5762d3.svg",
     "static/media/css.svg": "/static/media/css.e6a835fc72bf84f6e4982b02cee7de36.svg",
     "static/media/google-plus.svg": "/static/media/google-plus.26c7153a9da6c9f0250f2cb575da93e0.svg",
-    "main.6840bfef.css.map": "/static/css/main.6840bfef.css.map",
-    "main.674ced03.js.map": "/static/js/main.674ced03.js.map",
+    "main.27222469.css.map": "/static/css/main.27222469.css.map",
+    "main.12d50ab8.js.map": "/static/js/main.12d50ab8.js.map",
     "787.1c8d7232.chunk.js.map": "/static/js/787.1c8d7232.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6840bfef.css",
-    "static/js/main.674ced03.js"
+    "static/css/main.27222469.css",
+    "static/js/main.12d50ab8.js"
   ]
 }

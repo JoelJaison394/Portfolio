@@ -2,6 +2,7 @@ import React from 'react'
 import Home from '../components/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Education from '../components/Education';
+import Project from '../components/Project';
 
 function Cursor() {
 
@@ -11,15 +12,9 @@ function Cursor() {
    
   return (
     <div className="custom-cursor" onClick={handleClick}>
-        <BrowserRouter>
-        <Routes>
-            <Route exact path="/" element = {<Home/>}  />
-            <Route exact path="/portfolio" element = {<Home/>}  />
-           <Route exact path="/education" element = {<Education/>}  />
-            {/* <Route exact path="/home" element = {<Home/>}  />
-            <Route exact path="/verify" element = {<Verification/>}  /> */} 
-        </Routes>
-    </BrowserRouter>
+            <Home/>
+            <Education/>
+            <Project/>
         
     </div>
   )

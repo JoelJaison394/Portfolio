@@ -26,11 +26,11 @@ import {ReactComponent as Xd} from '../assets/Skills-icons/adobe-xd.svg'
 
 function SkillSection() {
   return (
-    <div >
+    <div className='skill-cover'>
         <div className="section-heading">
             <h1>Areas of expertise</h1>
         </div>
-        <div className="skillSection">
+        <div className="skillSection ">
         <div className="left-section skilset-1">
                 <h2 className='section-sub-title'>Full StackDevelopment</h2>
                 <div className="skill-icons">
@@ -58,15 +58,15 @@ function SkillSection() {
                     <p>⚡ Strong understanding of MERN stack capabilities.</p>
                 </div>
         </div>
-        <div className="right-section">
+        <div className="right-section svgclass">
             <Skillsimg />
         </div>
         </div>
-        <div className="skillSection">
-        <div className="left-section skilset-1">
+        <div className="skillSection skillSection2">
+        <div className="left-section skilset-1 svgclass">
         <Skillsimg2 />
         </div>
-        <div className="right-section ">
+        <div className="right-section specific-right">
 
             <h2 className='section-sub-title'>Cloud-Infra Architecture</h2>
                 <div className="skill-icons">
@@ -108,7 +108,7 @@ function SkillSection() {
                     <p>⚡ Strong understanding of design process and ability to work with cross-functional teams.</p>
                 </div>
         </div>
-        <div className="right-section">
+        <div className="right-section svgclass">
             <Skillsimg3 />
         </div>
         </div>

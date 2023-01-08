@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f5b2912.css",
-    "main.js": "/static/js/main.e64d435a.js",
+    "main.css": "/static/css/main.0fdcd924.css",
+    "main.js": "/static/js/main.674ced03.js",
     "static/js/787.1c8d7232.chunk.js": "/static/js/787.1c8d7232.chunk.js",
     "static/media/Graduation-hat.png": "/static/media/Graduation-hat.c2a8a3c51bbe119df570.png",
     "static/media/DonBosco-logo.png": "/static/media/DonBosco-logo.94e4fe7746d2135d4a76.png",
@@ -10,6 +10,7 @@
     "static/media/Skillsimg.svg": "/static/media/Skillsimg.4be3f8247a23fc3e86cc7fcb31197404.svg",
     "static/media/Heroimg.svg": "/static/media/Heroimg.644298b56cde4c8802c1113f019bb969.svg",
     "static/media/Skillsimg2.svg": "/static/media/Skillsimg2.1b3c59a8132509fe45dad0227da800aa.svg",
+    "static/media/tekwiza -logo.webp": "/static/media/tekwiza -logo.7e2456a6a46a303d673b.webp",
     "static/media/Skillsimg3.svg": "/static/media/Skillsimg3.ae61382822e3b75536cfffbed6ef3167.svg",
     "static/media/netlify.svg": "/static/media/netlify.260ec5c52b0075db79f1e6aec1571e01.svg",
     "static/media/aws.svg": "/static/media/aws.a14fd01c7162e3d713834261600f679b.svg",
@@ -38,12 +39,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.00f2c112424d46b943bc6e224e5762d3.svg",
     "static/media/css.svg": "/static/media/css.e6a835fc72bf84f6e4982b02cee7de36.svg",
     "static/media/google-plus.svg": "/static/media/google-plus.26c7153a9da6c9f0250f2cb575da93e0.svg",
-    "main.9f5b2912.css.map": "/static/css/main.9f5b2912.css.map",
-    "main.e64d435a.js.map": "/static/js/main.e64d435a.js.map",
+    "main.0fdcd924.css.map": "/static/css/main.0fdcd924.css.map",
+    "main.674ced03.js.map": "/static/js/main.674ced03.js.map",
     "787.1c8d7232.chunk.js.map": "/static/js/787.1c8d7232.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5b2912.css",
-    "static/js/main.e64d435a.js"
+    "static/css/main.0fdcd924.css",
+    "static/js/main.674ced03.js"
   ]
 }

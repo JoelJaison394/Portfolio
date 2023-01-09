@@ -1,11 +1,34 @@
 import React from 'react'
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 import { ReactComponent as Aboutimg } from '../assets/hero-section-svg/Aboutmeimg.svg'
+import { useInView } from 'react-intersection-observer';
+import { useAnimation } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 function AboutSection() {
     const [menuprofile, setmenuProfile] = React.useState(false);
     const [more , setMore] = useState("");
+    const {ref , inView}=useInView();
+    const animation = useAnimation();
+
+    useEffect(() =>{
+        if(inView){
+            animation.start({
+                x:0,
+                transition:{
+                    type: 'spring' , duration: 1 , bounce: 0.3
+                }
+            })
+        }
+        if(!inView){
+            animation.start({
+                x:'-100vw',
+            })
+        }
+    },[inView])
+
 
     const changeMenuP = (e) => {
         if(menuprofile===true){
@@ -18,14 +41,16 @@ function AboutSection() {
 
     
   return (
-    <div>
+    <div ref={ref}>
         <div className="section-heading">
             <h1>More About  Myself</h1>
         </div>
         <div className="about-section">
-        <div className="left-section">
+        <motion.div className="left-section" 
+        animate={animation}
+        >
             <Aboutimg/>
-        </div>
+        </motion.div>
         <div className="right-setion">
             <p>As a computer science engineering student from Thrissur, Kerala in India, I have always been fascinated by the world of technology and how it can be used to solve problems and improve people's lives. During the lockdown in 2020, I decided to take advantage of the extra time that I had and began learning more about web development and other computer-related skills at Sahrdaya College of Engineering and Technology. To further my knowledge and skills in this field, I have used a variety of resources such as freeCodeCamp, online courses on Coursera and Udemy, and tutorials on YouTube. I have also participated in online and offline webinars to stay up-to-date with the latest trends and best practices in web development. <br/></p>
 

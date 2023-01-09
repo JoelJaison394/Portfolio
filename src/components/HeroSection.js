@@ -1,6 +1,7 @@
 import React from 'react'
 import LeftHeroSection from './LeftHeroSection'
 import RightHeroSection from './RightHeroSection'
+import {motion} from 'framer-motion'
 
 function HeroSection() {
   const name = "< Joel Jaison />"
@@ -18,8 +19,23 @@ function HeroSection() {
         </div>
         </header>
         <div className="main-section">
-            < LeftHeroSection/>
-            <RightHeroSection/>
+            <motion.div 
+              initial = {{x: '-100vw'}}
+              animate = {{x:0}}
+                transition = {{type: 'spring' ,duration: 1 ,}}>
+              < LeftHeroSection/>
+            </motion.div>
+            <motion.div 
+              initial = {{x: '100vw'}}
+              animate = {{x:0}}
+                transition = {{type: 'spring' ,duration: 1 ,}}>
+                  <RightHeroSection/>
+            </motion.div>
+            
+
+            
+
+
             
         </div>
         

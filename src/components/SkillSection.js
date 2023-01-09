@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { ReactComponent as Skillsimg } from '../assets/hero-section-svg/Skillsimg.svg'
 import { ReactComponent as Skillsimg2 } from '../assets/hero-section-svg/Skillsimg2.svg'
 import { ReactComponent as Skillsimg3 } from '../assets/hero-section-svg/Skillsimg3.svg'
@@ -24,14 +25,36 @@ import {ReactComponent as Figma} from '../assets/Skills-icons/figma.svg'
 import {ReactComponent as Illustrator} from '../assets/Skills-icons/adobe-illustrator.svg'
 import {ReactComponent as Xd} from '../assets/Skills-icons/adobe-xd.svg'
 
+import { useInView } from 'react-intersection-observer';
+import { animate, useAnimation } from 'framer-motion';
+import {motion} from 'framer-motion';
+
 function SkillSection() {
+    const {ref , inView}=useInView();
+    const animation = useAnimation();
+
+    useEffect(() =>{
+        if(inView){
+            animation.start({
+                x:0,
+                transition:{
+                    type: 'spring' , duration: 1 , bounce: 0.3
+                }
+            })
+        }
+        if(!inView){
+            animation.start({
+                x:'-100vw',
+            })
+        }
+    },[inView])
   return (
     <div className='skill-cover'>
         <div className="section-heading">
             <h1>Areas of expertise</h1>
         </div>
         <div className="skillSection ">
-        <div className="left-section skilset-1">
+        <div className="left-section skilset-1" >
                 <h2 className='section-sub-title'>Full StackDevelopment</h2>
                 <div className="skill-icons">
                     {/* <label className='skills' ><C/></label> */}
@@ -58,14 +81,17 @@ function SkillSection() {
                     <p>⚡ Strong understanding of MERN stack capabilities.</p>
                 </div>
         </div>
-        <div className="right-section svgclass">
+        <div className="right-section svgclass" 
+        >
             <Skillsimg />
         </div>
         </div>
-        <div className="skillSection skillSection2">
-        <div className="left-section skilset-1 svgclass">
+        <div className="skillSection skillSection2" ref={ref}>
+        <motion.div  className="left-section skilset-1 svgclass"
+        animate={animation}
+        >
         <Skillsimg2 />
-        </div>
+        </motion.div>
         <div className="right-section specific-right">
 
             <h2 className='section-sub-title'>Cloud-Infra Architecture</h2>

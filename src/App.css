@@ -3,6 +3,9 @@
 body{
   margin: 0;
   padding: 10px;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
 }
 
 *{
@@ -233,6 +236,14 @@ Link{
   padding: 10px 5px;
 }
 
+.project-des{
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: #452c63;
+  line-height: 35px;
+  padding-bottom: 10px 5px
+}
+
 .left >p {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
@@ -323,7 +334,7 @@ Link{
 }
 
 
-.certicates-collections{
+.certicates-collections , .project-collections{
   width: 100%;
   height: auto;
   padding: 10px 10px;
@@ -334,11 +345,16 @@ Link{
 }
 
 .certificate-boxes{
-  min-width: 350px;
+  width: 300px;
   height: auto;
   border: 2px solid grey;
   padding: 10px 15px;
   margin: 10px 0px;
+}
+
+.techs{
+  border-top: 2px solid #302e41;
+  display: flex;
 }
 
 .box-header{
@@ -373,7 +389,6 @@ Link{
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  padding: 3px 3px;
   border: 2px solid grey;
   background-color: #302e41;
   background-image: url(./assets/education/tekwiza\ -logo.webp);
@@ -561,6 +576,7 @@ Link{
 
     .edu{
       margin: 0px;
+      margin-bottom: 8px;
     }
 
     .edu-header{
@@ -574,10 +590,10 @@ Link{
     .certicates-collections{
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       padding: 10px;
     }
+
+
 
 
 }

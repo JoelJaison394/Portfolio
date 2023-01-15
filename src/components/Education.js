@@ -5,7 +5,7 @@ import  GraduationHat  from '../assets/Graduation-hat.png';
 function Education() {
     const name = "< Joel Jaison />"
   return (
-    <div className='education-cover'>
+    <div className='education-cover' id='education'>
         <div className="section-heading education-section">
             <h1>Education</h1>
         </div>
@@ -55,13 +55,16 @@ function Education() {
             <h1>Certifications</h1>
         </div>
         <div className="certicates-collections">
-            <div className="certificate-boxes">
-                <div className="box-header">
-                    <div className="logo-circle"></div>
+            <a href="https://drive.google.com/file/d/1CoHhfDknFkxMYnvhJaKSTq9cVLqp5N0E/view?usp=drivesdk">
+                <div className="certificate-boxes">
+                    <div className="box-header">
+                        <div className="logo-circle"></div>
+                    </div>
+                    <h3>Hackthon</h3>
+                    <p>Zypher</p>
                 </div>
-                <h3>Hackthon</h3>
-                <p>Tekathon</p>
-            </div>
+            </a>
+
             <div className="certificate-boxes">
             <div className="box-header">
                     <div className="logo-circle4"></div>
@@ -69,13 +72,18 @@ function Education() {
                 <h3>Hackthon</h3>
                 <p>Tekathon</p>
             </div>
-            <div className="certificate-boxes">
-            <div className="box-header">
-                    <div className="logo-circle"></div>
+
+            <a href="https://drive.google.com/file/d/1F67vgtEpiRynZwC0fE9tE0vcipDS2VFJ/view?usp=drivesdk">
+                <div className="certificate-boxes">
+                <div className="box-header">
+                        <div className="logo-circle"></div>
+                    </div>
+                    <h3>Hackthon</h3>
+                    <p>Tek-o-thon</p>
                 </div>
-                <h3>Hackthon</h3>
-                <p>Zypher</p>
-            </div>
+
+            </a>
+     
             <div className="certificate-boxes">
             <div className="box-header">
                     <div className="logo-circle3"></div>

@@ -5,7 +5,7 @@ import SkillSection from './SkillSection'
 
 function Home() {
   return (
-      <div>
+      <div id='home'>
       <HeroSection/>
       <AboutSection/>
       <SkillSection/>

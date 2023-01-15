@@ -12,7 +12,7 @@ import {ReactComponent as Tailwind} from '../assets/Skills-icons/tailwind-css.sv
 
 function Project() {
   return (
-    <div>
+    <div id='projects'>
         
         <div className="section-heading education-section">
             <h1>projects</h1>
@@ -26,9 +26,14 @@ function Project() {
 
         <div className=" project-collections">
         <div className="certificate-boxes project-box">
-                <h3>React-twitter-clone</h3>
-                <p ><span className='project-des'>A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.</span> 
+                <h3>Netflix-Clone</h3>
+                <p ><span className='project-des'>Netflix clone built with React on the frontend and Firebase on the backend. This project features a sleek and intuitive interface, allowing users to easily browse and watch their favorite movies and TV shows. The movies are fetched from TMDB using their API with Axios making API requests. Utilizing Firebase authentication, users can securely create an account and log in to access their personalized content.</span> 
+                    
                 </p>
+                <div className="extra">
+                    <a href="https://github.com/JoelJaison394/Netflix_Clone"><p>view code</p></a>
+                    <a href="https://netflix-clone-fb10a.web.app/home"><p>Live</p></a>
+                </div>
                 <div className="techs">
                     <Reactjs height={'50px'}/>
                     <Firebase height={'50px'}/>

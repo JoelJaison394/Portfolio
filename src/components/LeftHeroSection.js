@@ -19,11 +19,16 @@ function LeftHeroSection() {
             </p>
         </div>
         <div className="contact-icons">
-            <label ><Linkedin className='icons'/></label>
-            <label ><Youtube className='icons'/></label>
-            <label ><Instagram className='icons'/></label>
+          <a href="https://www.linkedin.com/in/joeljaison391/"><label ><Linkedin className='icons'/></label></a>
+
+            <a href="https://www.youtube.com/channel/UC9ofrhBsIlV0OIfgC-t1WDw"><label ><Youtube className='icons'/></label></a> 
+
+            <a href="https://www.instagram.com/jannuarry394/"><label ><Instagram className='icons'/></label></a>
+
             <label ><Google className='icons'/></label>
-            <label ><Github className='icons'/></label>
+            
+            <a href="https://github.com/JoelJaison394"><label ><Github className='icons'/></label></a>
+
         </div>
     </div>
   )

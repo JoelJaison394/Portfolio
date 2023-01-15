@@ -10,10 +10,13 @@ function HeroSection() {
         <header>
         <h1>{name}</h1>
         <div className="menu-list">
-          <ul>           
-              <li >Home</li>
-            <li>Education</li>
-            <li>Projects</li>
+          <ul> 
+            <a href="#home"><li >Home</li></a>          
+              
+            <a href="#education"><li>Education</li></a> 
+
+            <a href="#projects"><li>Projects</li></a>
+
             <li>Contact</li>
           </ul>
         </div>

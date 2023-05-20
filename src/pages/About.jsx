@@ -5,7 +5,6 @@ import { InView } from "react-intersection-observer";
 import Hobbies from "../components/Hobbies";
 import DreamCompanies from "../components/DreamCompanies";
 import Footer from "../components/Footer";
-import Typewriter from "react-typewriter-effect";
 import PodcastSection from "../components/PodcastSection";
 import googleCer from "../assets/certificate/Screenshot 2023-05-18 202335.png";
 import mongoCer from "../assets/certificate/Screenshot 2023-05-18 202413.png";

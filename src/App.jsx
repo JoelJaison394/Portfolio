@@ -2,15 +2,20 @@ import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Element } from 'react-scroll';
 import './App.css';
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import './Preloader.css'
 import Navbar from './components/Navbar';
+const About = React.lazy(() => import('./pages/About'))
+const Home = React.lazy(() => import('./pages/Home'))
+const Projects = React.lazy(() => import('./pages/Projects'))
+const Contact = React.lazy(() => import('./pages/Contact'))
 
 const App = () => {
   const Preloader = () => (
     <div className="preloader">
+      <div className="spinner">
+        <div className="double-bounce1"></div>
+        <div className="double-bounce2"></div>
+      </div>
       <h2>Loading...</h2>
     </div>
   );

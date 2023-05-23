@@ -6,13 +6,7 @@ import Hobbies from "../components/Hobbies";
 import DreamCompanies from "../components/DreamCompanies";
 import Footer from "../components/Footer";
 import PodcastSection from "../components/PodcastSection";
-import googleCer from "../assets/certificate/Screenshot 2023-05-18 202335.png";
-import mongoCer from "../assets/certificate/Screenshot 2023-05-18 202413.png";
-import hackerCer from "../assets/certificate/Screenshot 2023-05-18 202444.png";
-import freecodecampCer from "../assets/certificate/Screenshot 2023-05-18 204354.png";
-import skillfreeCer from "../assets/certificate/Screenshot 2023-05-18 204417.png";
-import tekathon from "../assets/certificate/tek-a-thon.png";
-import zypher from "../assets/certificate/zypher.png";
+
 
 const About = () => {
   const imageVariants = {
@@ -31,37 +25,36 @@ const About = () => {
       title: "Google Cloud Resource Management",
       issuer: "Google",
       date: "2023",
-      image: googleCer,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684555018/Screenshot_2023-05-18_202335_g7nblk.png",
     },
     {
       id: 2,
       title: "Database Management",
       issuer: "MongoDB",
       date: "2023",
-      image: mongoCer,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684555018/Screenshot_2023-05-18_202413_wpqp3a.png",
     },
     {
       id: 3,
       title: "Javascript-[intermediate]",
       issuer: "HackerRank",
       date: "2022",
-      image: hackerCer,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684555019/Screenshot_2023-05-18_202444_ci778a.png",
     },
     {
       id: 4,
       title: "Responsive web designing",
       issuer: "Freecode Camp",
       date: "2021",
-      image: freecodecampCer,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684555018/Screenshot_2023-05-18_204354_veb1qf.png",
     },
     {
       id: 5,
       title: "Javascript Beginner",
       issuer: "Skill Up",
       date: "2022",
-      image: skillfreeCer,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684555018/Screenshot_2023-05-18_204417_sz65eb.png",
     },
-    // Add more certificate objects as needed
   ];
 
   const certificateVariants = {
@@ -86,7 +79,7 @@ const About = () => {
             {({ ref, inView }) => (
               <motion.img
                 ref={ref}
-                src={profileIMG}
+                src="https://res.cloudinary.com/dxraggwp4/image/upload/v1684555099/profile-home_ujoau0.png"
                 alt="Main Image"
                 className="mx-auto w-64 h-auto rounded-full"
                 variants={imageVariants}

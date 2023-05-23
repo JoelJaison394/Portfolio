@@ -1,5 +1,4 @@
 import React from "react";
-import profileIMG from "../assets/profiles/profile-home.jpg";
 import { motion } from "framer-motion";
 import { FaGithub, FaDev, FaLinkedin } from "react-icons/fa";
 import TechStack from "../components/TechStack";
@@ -39,7 +38,7 @@ const Home = () => {
             className="flex items-center justify-center mt-8"
           >
             <a
-              href="https://github.com/your-github-link"
+              href="https://github.com/JoelJaison394"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-2"
@@ -47,7 +46,7 @@ const Home = () => {
               <FaGithub className="text-3xl" />
             </a>
             <a
-              href="https://dev.to/your-dev-to-link"
+              href="https://dev.to/joeljaison394"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-2"
@@ -55,7 +54,7 @@ const Home = () => {
               <FaDev className="text-3xl" />
             </a>
             <a
-              href="https://linkedin.com/your-linkedin-link"
+              href="https://www.linkedin.com/in/joeljaison391/"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-2"
@@ -88,7 +87,7 @@ const Home = () => {
             >
               <div className="w-48 h-48 md:w-96 md:h-96 rounded-full overflow-hidden shadow-lg">
                 <img
-                  src={profileIMG}
+                  src="https://res.cloudinary.com/dxraggwp4/image/upload/v1684555099/profile-home_ptor4g.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />

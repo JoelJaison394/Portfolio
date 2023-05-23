@@ -2,11 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import { motion } from 'framer-motion';
 import { InView } from 'react-intersection-observer';
-import Sem from '../assets/achivements/sem-1.jpg';
-import Sem1 from '../assets/achivements/minor-project.jpg';
-import API from '../assets/achivements/API.jpeg';
-import api from '../assets/achivements/api-1.jpg';
-import zypher from '../assets/achivements/zypher.jpg';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -15,27 +10,22 @@ const AchievementCarousel = () => {
   const achievements = [
     {
       id: 1,
-      image: Sem,
-      caption: ' Prize for Hologram Project done by my group',
-    },
-    {
-      id: 2,
-      image:API ,
+      image:"https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/API_x5ixiw.jpg" ,
       caption: 'Postman Student Expert',
     },
     {
-        id: 3,
-        image:api ,
+        id: 2,
+        image:"https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/api-1_tkhlby.jpg",
         caption: 'My first class as a tutor',
       },
       {
-        id: 4,
-        image:Sem1 ,
+        id: 3,
+        image:"https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/minor-project_l8hndg.jpg",
         caption: 'First Prize for Minor Project in sem-1',
       },
       {
-        id: 5,
-        image: zypher,
+        id: 4,
+        image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684554984/zypher_dgqpmg.jpg",
         caption: 'Fourth place in Zypher Hackathon',
       },
   ];

@@ -5,7 +5,7 @@ import './App.css';
 import './Preloader.css'
 import Navbar from './components/Navbar';
 const About = React.lazy(() => import('./pages/About'))
-const Home = React.lazy(() => import('./pages/Home'))
+import Home from './pages/Home'
 const Projects = React.lazy(() => import('./pages/Projects'))
 const Contact = React.lazy(() => import('./pages/Contact'))
 

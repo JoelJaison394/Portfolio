@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
-import API from '../assets/achivements/API.jpeg';
-import Writter from '../assets/achivements/writter.png';
-import Drawing from '../assets/achivements/drawing.jpg';
 
 const Hobbies = () => {
   const hobbiesData = [
@@ -11,19 +8,19 @@ const Hobbies = () => {
       id: 1,
       title: "Teaching",
       description: "I like to teach tech-related things to others in a practical way",
-      image: API,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/API_x5ixiw.jpg",
     },
     {
       id: 2,
       title: "Writing Blogs",
       description: "I enjoy documenting the things I learn by writing blogs",
-      image: Writter,
+      image: "https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/writter_aa5ycm.png",
     },
     {
       id: 3,
       title: "Drawing",
       description: "I love spending my free time with pencil and paper",
-      image: Drawing,
+      image:"https://res.cloudinary.com/dxraggwp4/image/upload/v1684554983/drawing_pzfnni.jpg",
     }
   ];
 
